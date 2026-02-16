@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Online Services Cards</title>
+
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+            background:hwb(0 74% 24%);
+            text-align:center;
+            margin:0;
+        }
+
+        h1{
+            margin-top:30px;
+        }
+
+        .container{
+            display:flex;
+            justify-content:center;
+            flex-wrap:wrap;
+            gap:20px;
+            padding:40px;
+        }
+
+        .card{
+            background:white;
+            width:250px;
+            padding:15px;
+            border-radius:12px;
+            box-shadow:0 4px 8px rgba(0,0,0,0.2);
+            transition:0.3s;
+        }
+
+        .card:hover{
+            transform:scale(1.05);
+        }
+
+        .card img{
+            width:100%;
+            height:160px;
+            border-radius:10px;
+            object-fit:cover;
+        }
+
+        .card h3{
+            margin:12px 0;
+        }
+
+        .card p{
+            font-size:14px;
+            color:#555;
+        }
+    </style>
+
+</head>
+<body>
+
+<h1 style="background-color: #ffffff; color: rgb(0, 0, 0); text-align: center;"></h1style>Online Service Platforms</h1>
+
+<div class="container">
+
+    <div class="card">
+        <img src="zomato.jpg" alt="Zomato">
+        <h3>Zomato</h3>
+        <p>Zomato provides fast and easy online food ordering and restaurant discovery services.</p>
+    </div>
+
+    <div class="card">
+        <img src="swiggy.jpg" alt="Swiggy">
+        <h3>Swiggy</h3>
+        <p>Swiggy delivers food from nearby restaurants quickly to your doorstep.</p>
+    </div>
+
+    <div class="card">
+        <img src="flipkart.jpg" alt="Flipkart">
+        <h3>Flipkart</h3>
+        <p>Flipkart is an e-commerce platform offering electronics, fashion, and many other products.</p>
+    </div>
+
+    <div class="card">
+        <img src="amazon.jpg" alt="Amazon">
+        <h3>Amazon</h3>
+        <p>Amazon is a global online shopping platform providing a wide range of products and services.</p>
+    </div>
+
+</div>
+
+</body>
+</html>
